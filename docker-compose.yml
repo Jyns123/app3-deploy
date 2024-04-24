@@ -1,0 +1,16 @@
+ version: "3.3"
+
+ services:
+   api-students:
+     image: jyns/api-students
+     ports:
+       - 8000:8000
+   websimple:
+     image: jyns/websimple
+     ports:
+       - 8080:80
+   webbonita:
+     image: jyns/salient
+     ports:
+       - 8081:80
+
